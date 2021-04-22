@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Scoreboard from './components/Scoreboard';
+import Hands from './components/Hands';
 
 function App() {
   return (

@@ -1,0 +1,25 @@
+.hand {
+  width: 252px;
+  height: 248px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.hand:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.hand img {
+  width: 198px;
+  height: 203px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hand img:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
