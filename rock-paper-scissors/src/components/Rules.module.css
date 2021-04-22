@@ -1,0 +1,80 @@
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  width: 128px;
+  height: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 9px 36px;
+  margin-right: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  letter-spacing: 2.5px;
+  transition: all 200ms ease;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #3b4262;
+  transition: all 300ms ease;
+  transform: scale(1.05);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  margin-top: -740px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalContent {
+  width: 400px;
+  height: 415px;
+  margin: 177px auto;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent img {
+  width: 305px;
+  height: 271px;
+}
+
+.header {
+  display: flex;
+}
+
+.header h3 {
+  text-transform: uppercase;
+  color: rgba(59, 66, 98, 1);
+  font-size: 32px;
+}
+
+.header img {
+  width: 19px;
+  height: 19px;
+  margin-top: 10px;
+  transition: all 0.25s ease-in-out;
+}
+
+.header img:hover {
+  transform: scale(1.25);
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
